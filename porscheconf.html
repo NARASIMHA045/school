@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche Configurator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #e63946;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        select, input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #e63946;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #d62839;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #e63946;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Porsche Configurator</h1>
+</header>
+
+<div class="container">
+    <h2>Configure Your Porsche</h2>
+    <form>
+        <div class="form-group">
+            <label for="model">Select Model:</label>
+            <select id="model" name="model">
+                <option value="cayenne">Porsche Cayenne</option>
+                <option value="911">Porsche 911</option>
+                <option value="panamera">Porsche Panamera</option>
+                <option value="taycan">Porsche Taycan</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="color">Select Color:</label>
+            <select id="color" name="color">
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="silver">Silver</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="wheels">Select Wheels:</label>
+            <select id="wheels" name="wheels">
+                <option value="standard">Standard Wheels</option>
+                <option value="sport">Sport Wheels</option>
+                <option value="premium">Premium Wheels</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Configure Now">
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2024 Porsche Configurator. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

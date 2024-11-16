@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolls-Royce - The Pinnacle of Luxury</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-image: url('rolls-royce-hero.jpg');
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            font-size: 2.5em;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            padding: 20px;
+            display: inline-block;
+            width: calc(33% - 40px);
+            vertical-align: top;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: calc(50% - 40px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+
+            .hero {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rolls-Royce</h1>
+        <nav>
+            <a href="#models">Models</a>
+            <a href="#customization">Customization</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        Experience Luxury Like Never Before
+    </div>
+
+    <div class="content">
+        <h2>Our Models</h2>
+        <div class="card">
+            <img src="model1.jpg" alt="Model 1">
+            <h3>Phantom</h3>
+            <p>The pinnacle of luxury and craftsmanship.</p>
+        </div>
+        <div class="card">
+            <img src="model2.jpg" alt="Model 2">
+            <h3>Ghost</h3>
+            <p>A masterpiece of engineering and elegance.</p>
+        </div>
+        <div class="card">
+            <img src="model3.jpg" alt="Model 3">
+            <h3>Wraith</h3>
+            <p>Where power meets beauty.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Rolls-Royce Motor Cars. All rights reserved.</p>
+    </footer>
+</body>
+</html>
